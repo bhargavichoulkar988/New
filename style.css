@@ -1,0 +1,1976 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+#final{
+display: none;
+}
+
+
+#index {
+    color: black;
+    text-decoration: none;
+}
+
+.cs1 {
+    padding: 2% 5%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    background-color: white;
+    align-items: center;
+    padding: 15px 20px;
+    box-shadow: 1px 1px 50px 50px white;
+    /* ... */
+    position: relative;
+       
+    /* display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px;
+background-color: #fff;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+z-index: 1000; */
+}
+
+#title {
+    font-family: 'Playball';
+    font-size: 40px;
+    margin-left: 5%;
+
+}
+
+/*     header     */
+ul {
+    display: flex;
+    list-style: none;
+    gap: 5%;
+    padding: 0.5%;
+    /* gap: 15px; */
+
+
+}
+
+/* .... */
+
+/* .cs1 ul a {
+text-decoration: none;
+color: gray;
+font-weight: bold;
+
+} */
+/* .... */
+
+li {
+    color: gray;
+    font-size: 120%;
+    list-style: none;
+
+
+}
+
+
+.cs1 ul li {
+    padding: 10px 15px;
+}
+
+li:hover {
+    color: #C99A5B;
+    transition: all 1s;
+}
+
+#link {
+    text-decoration: none;
+    
+}
+
+
+/* ................. */
+.navpages {
+    position: relative;
+}
+        
+/* .navpages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    color: white;
+} */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-links li {
+    padding: 0 10px;
+    color: black;
+}
+.nav-links a {
+    color: gray;
+    text-decoration: none;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background: wheat;
+    list-style: none;
+    color: #111;
+   
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.dropdown:hover .dropdown-menu, .dropdown.active .dropdown-menu {
+    display: block;
+}
+
+/* ..................... */
+
+#button1 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #C99A5B;
+    color: black;
+    border: none;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+#button1:hover {
+    background-color: black;
+    color: #C99A5B;
+    transition: all 1s;
+}
+
+#now {
+
+    margin-right: 30px;
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 100px;
+    font-weight: bold;
+    background-color: #C99A5B;
+}
+
+#now:hover {
+    background-color: black;
+    color: #C99A5B;
+    transition: all 1s;
+}
+
+
+
+
+/* First Section Styeling */
+.cs2 {
+
+    padding-left: 10%;
+    display: flex;
+
+
+}
+
+#wtc {
+    border: 1px solid #C99A5B;
+    width: 35%;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 200px;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 550;
+
+}
+
+
+
+
+
+#book {
+    font-family: 'Playball';
+    font-size: 70px;
+}
+
+#cat {
+    color: #C99A5B;
+}
+
+#by {
+    font-family: 'Playball';
+    font-size: 40px;
+}
+
+#bn,
+#km,
+#au2 {
+    width: 20%;
+    padding: 2% 2%;
+    text-align: center;
+    border-radius: 100px;
+    color: black;
+    background-color: #C99A5B;
+    font-weight: bold;
+
+
+
+}
+
+#bn:hover,
+#km:hover,
+#au2:hover {
+    background-color: black;
+    color: #C99A5B;
+    transition: all 1s;
+}
+
+#km {
+    margin-top: 2%;
+
+
+}
+
+.fsp1 {
+    padding-top: 15%;
+    flex-basis: 50%;
+
+}
+
+#p1 {
+    width: 80%;
+    /* margin-left: 20%; */
+    margin-top: 15%;
+
+}
+
+.fsp2 {
+    flex-basis: 50%;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+
+/* Second Section Styeling */
+
+.cs3 {
+    display: flex;
+}
+
+.ssp1 {
+    flex-basis: 50%;
+    padding-top: 2%;
+
+}
+
+#p2 {
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    border-radius: 2%;
+}
+
+.ssp2 {
+    flex-basis: 50%;
+    padding-top: 12%;
+    margin-right: 10%;
+
+}
+
+#a1 {
+
+    width: 20%;
+    border: 1px solid #C99A5B;
+    padding: 1%;
+    text-align: center;
+    border-radius: 100px;
+    background-color: cornsilk;
+
+
+}
+
+#para1 {
+    font-size: 18px;
+    color: gray;
+
+}
+
+.ssp {
+    margin-top: 5%;
+    display: flex;
+}
+
+.ssp2a {
+    flex-basis: 50%;
+}
+
+.ssp2b {
+    flex-basis: 50%;
+
+}
+
+#Fresh {
+    color: #C99A5B;
+    margin-right: 2%;
+
+}
+
+
+#au2 {
+    margin-top: 5%;
+
+}
+
+#arrow {
+    padding-left: 10%;
+}
+
+
+
+
+/* Third Section Styleing */
+
+.cs4 {
+    display: flex;
+    /* justify-content: center;
+    gap: 5%;
+    margin: auto; */
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+.card1,
+.card2,
+.card3 {
+    margin-top: 5%;
+    text-align: center;
+    width: 13%;
+    height: 30%;
+    background-color: #C99A5B;
+    text-transform: uppercase;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    transition-property: background, border-radius;
+transition-duration: 1s;
+transition-timing-function: linear;
+
+}
+.card1:hover,.card3:hover,.card2:hover{
+    background: rgb(199, 156, 91);
+    border-radius: 15%;
+}
+
+/* .card1 {
+    margin-left: 2%;
+    padding-top: 2.5%;
+}
+
+.card2 {
+    margin-left: 2%;
+    padding-top: 2.5%;
+
+}
+
+.card3 {
+    margin-left: 2%;
+    padding-top: 2.5%;
+} */
+
+#i1 {
+    color: white;
+
+}
+
+#n1 {
+    margin-top: 15%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+#t1 {
+    margin-top: 15%;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Fourth Section Styeling */
+
+.cs5 {
+
+    text-align: center;
+    padding: 50px 20px;
+
+    margin-top: 5%;
+
+}
+
+.cards {
+    /* grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.cs5a {
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+#os {
+    border: 1px solid black;
+    padding: 5px 5px;
+    width: 10%;
+    border-radius: 100px;
+    text-transform: uppercase;
+    border-color: #C99A5B;
+    margin-left: 650px;
+
+}
+
+
+#wo {
+    font-family: 'Playball';
+    font-size: 50px;
+
+}
+
+.cards1,
+.cards2,
+.cards3,
+.cards4,
+.cards5,
+.cards6,
+.cards7,
+.cards8 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 5px hsl(0, 12%, 92%);
+    width: 300px;
+    height: 300px;
+    padding: 10%;
+    text-align: center;
+    margin-top: 10%;
+    transition: transform 0.3s ease;
+    
+}
+
+/* .............. */
+.cards1:hover,
+.cards2:hover,
+.cards3:hover,
+.cards4:hover,
+.cards5:hover,
+.cards6:hover,
+.cards7:hover,
+.cards8:hover,#icon:hover {
+    /* background-color: lightgoldenrodyellow; */
+    background: linear-gradient(to bottom, #FBFCF8, lightgoldenrodyellow);
+
+    color: black;
+    transition: all 1s;
+    transform: translateY(-20px);
+    
+}
+
+#icon:hover{
+    color: #111;
+    background: linear-gradient(to bottom, #FBFCF8, lightgoldenrodyellow);
+
+}
+
+/* ............ */
+
+.ws {
+
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+
+}
+
+#ws1 {
+    margin-top: 5%;
+    margin-bottom: 8%;
+    color: gray;
+}
+
+#rm {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    height: 40px;
+    width: 120px;
+    border-radius: 80px;
+    background-color: #C99A5B;
+    font-size: 16px;
+    border: none;
+
+}
+
+#rm:hover {
+    background-color: black;
+    color: #C99A5B;
+    transition: all 1s;
+}
+
+#icon {
+    color: #C99A5B;
+}
+
+
+/* Fifth Section Styeling */
+
+
+.cs6 {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.cs6a {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    /* margin-left: 30%; */
+
+}
+
+#ae {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background-color: white;
+    border: 1px solid #C99A5B;
+    margin: 1%;
+    font-weight: 20%;
+    transition: 0.3s ease;
+
+}
+
+#ae:hover {
+    background-color: #C99A5B;
+    transition: all 1s;
+}
+
+.cs6b {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+/* ..................... */
+
+
+.img1 {
+    /* border-radius: 20px;
+width: 300px; */
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+
+}
+
+.img1:hover {
+    background-color: #C99A5B;
+    transition: all 2s;
+    transform: scale(1.15);
+    align-items: center;
+}
+
+
+
+/* Sixth Section Styleing  */
+.cs7 {
+    background-color: #FBFCF8;
+
+}
+
+#om {
+    border: 1px solid black;
+    padding: 5px 5px;
+    width: 8%;
+    border-radius: 100px;
+    text-transform: uppercase;
+    border-color: #C99A5B;
+    margin-top: 50px;
+    margin-left: 700px;
+}
+
+
+/* ............................ */
+
+
+.starting {
+    font-family: Arial, sans-serif;
+    background-color: #fdfaf5;
+    margin: 0;
+    padding: 20px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.menu-column {
+    width: 48%;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.menu-item #card {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.menu-content {
+    flex: 1;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tikki {
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.nine {
+    font-size: 18px;
+    color: #c79c5b;
+    font-weight: bold;
+}
+
+#labore {
+    color: #888;
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+#card{
+    transition: transform 0.3s ease-in-out;
+            
+}
+#card:hover{
+
+    transform: scale(1.25);
+}
+
+
+
+
+
+
+#apple{
+display: none;
+}
+
+
+/* Seventh Section Page Styeling */
+
+.cs8 {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.move {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: 2px solid #C99A5B;
+    height: 503px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    border-radius: 21px;
+    background-color: #FBFCF8;
+}
+
+#box1,#box2,#box3,#box4 {
+    margin-top: 2%;
+    border: 1px solid #C99A5B;
+    width: 8%;
+    padding: 0.5%;
+    margin-left: 45%;
+    border-radius: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+
+
+
+}
+
+#where {
+    font-family: 'Playball';
+    font-size: 40px;
+    margin-top: 2%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.right {
+    text-align: start;
+
+}
+
+#imgr {
+    border-radius: 20px;
+
+}
+
+.formselect1,
+.form-control {
+    width: 100%;
+    /* margin-right: 60%; */
+    padding: 12px;
+    border-color: #C99A5B;
+    border-radius: 10px;
+    background-color: #FBFCF8;
+    color: gray;
+    text-align: start;
+
+
+}
+
+/* .mobile{
+    width: 0%;
+    padding-left: 130px;
+} */
+.selectall {
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+
+}
+
+.sn {
+    border: 3px solid lightpink;
+    padding: 15px 15px;
+    width: 15%;
+    border-radius: 100px;
+    margin-top: 5%;
+    background-color: #C99A5B;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.3s ease;
+
+
+
+
+}
+
+.sn:hover {
+    background-color: black;
+    color: #C99A5B;
+    transition: all 1s;
+}
+
+
+
+
+
+
+
+
+/* Eighth Section Page Styleing */
+
+.cs9 {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team>div {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.team>div:hover {
+    transform: translateY(-5px);
+}
+
+
+#chef {
+    /* border-radius: 5%; */
+    border-radius: 10px;
+
+    height: auto;
+    display: block;
+}
+
+/* .team{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 30px;
+
+} */
+
+#c1,
+#dc {
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+#c1 {
+    margin-top: 5%;
+}
+
+#dc {
+    margin-bottom: 5%;
+    color: white;
+}
+
+#chef-a {
+    background-color: black;
+    color: #C99A5B;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#chef-a:hover {
+    background-color: #C99A5B;
+    color: black;
+    transition: all 1s;
+}
+
+
+
+
+/* Nineth Section Page Styleing */
+
+
+.cs10 {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+
+
+/* .Customer1{
+    padding-top: 5%;
+ } */
+.Customers,
+.Customers1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+/* ----------------------------------- */
+
+
+.Customers {
+    font-family: Arial, sans-serif;
+    /* display: flex;
+justify-content: center;
+align-items: center; */
+    height: 18rem;
+
+    background-color: wh;
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 30px;
+
+
+}
+
+.Customers1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 30px;
+
+
+}
+
+.testimonial-card {
+    background: #ebe4dd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 350px;
+    height: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #C99A5B;
+    position: relative;
+}
+
+.testimonial-header {
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+}
+
+.testimonial-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.testimonial-info h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.profession {
+    /* margin: 2px 0; */
+    font-size: 14px;
+    color: gray;
+}
+
+.quote-icon {
+    font-size: 15px;
+    color: gray;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.testimonial-rating {
+    color: #D4A762;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.testimonial-text {
+    font-size: 15px;
+    color: gray;
+}
+
+#box3{
+    width: 12%;
+}
+
+
+
+/* ......................  */
+
+@keyframes scrollLeftToRight {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
+.Customers1 {
+    animation: scrollLeftToRight 10s linear infinite;
+
+}
+
+@keyframes scrollRightToLeft {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.Customers {
+    animation: scrollRightToLeft 10s linear infinite;
+}
+
+
+
+
+
+/* Tenth Section Page Sytleing */
+
+.cs11 {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+#box4 {
+    margin-top: 2%;
+    border: 1px solid #C99A5B;
+    width: 10%;
+    padding: 0.5%;
+    margin-left: 0%;
+    border-radius: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+
+
+
+}
+
+.blogs {
+    /* display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 2%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#Cater {
+    width: 400px;
+    border-radius: 20px;
+    transition: transform 0.1s ease;
+
+}
+
+#Cater:hover{
+    transition: all 1s;
+    transform: scale(1.25);
+    align-items: center;
+
+}
+
+#test {
+    text-decoration: none;
+    color: black;
+
+}
+
+#test:hover {
+    color: #C99A5B;
+    transition: all 1s;
+
+}
+
+
+
+/* --------------------- */
+
+
+.card {
+    position: relative;
+    width: 320px;
+    border-radius: 15px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
+}
+
+.card img {
+    width: 100%;
+    /* display: block; */
+    height: auto;
+    border-radius: 15px;
+}
+
+.card-content {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 12px 15px;
+    border-radius: 10px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.date {
+    background: #c49a6c;
+    color: black;
+    padding: 10px 12px;
+    border-radius: 10px 0 0 10px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 60px;
+}
+
+
+.date span {
+    display: block;
+    font-size: 14px;
+
+}
+
+.text {
+    margin-left: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+
+
+
+/* Eleventh Section Page Styleing */
+
+.cs12 {
+    /* display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    margin-bottom: 5%; */
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #FFFCF8;
+}
+
+
+.CaterServ-end.Special,
+.Contact-us,
+.Social {
+    /* padding-top: 20px; */
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+}
+
+.end2 {
+    font-size: 25px;
+
+}
+
+.end1 {
+    color: gray;
+    font-size: 18px;
+}
+
+#face {
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px solid #c49a6c;
+    background-color: #C99A5B;
+}
+
+#face:hover {
+    background-color: black;
+    color: #C99A5B;
+    transition: all 1s;
+}
+
+#facebook {
+    text-decoration: none;
+    color: black;
+
+}
+
+#primary {
+
+    text-decoration: none;
+    color: gray;
+
+}
+
+#primary:hover {
+    color: #C99A5B;
+}
+
+#check {
+    margin-right: 10px;
+    color: #C99A5B;
+}
+
+#add {
+    color: gray;
+
+}
+
+.Gallery {
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+
+}
+
+#g-a {
+    border: 1px solid #C99A5B;
+    border-radius: 100px;
+    width: 60px;
+
+}
+
+.g1 {
+    border: 1px solid #C99A5B;
+    padding: 8px;
+    border-radius: 100px;
+}
+
+.g1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.g1 img:hover {
+    transform: scale(1.05);
+}
+
+
+
+/* Footer Page Section Styleing */
+
+
+.cs13 {
+    /* padding: 2%;
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 60%;
+    background-color: black; */
+    background-color: #111; 
+color: white;
+text-align: center;
+padding: 15px 20px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+
+    
+}
+
+#right {
+    color: white;
+    margin-right: 0%;
+}
+
+.copy {
+    color: white;
+}
+
+#site {
+    text-decoration: none;
+    color: #C99A5B;
+
+}
+
+.by {
+    color: white;
+    position: relative;
+
+
+}
+
+/* ..... */
+.copy a:hover,
+.by a:hover {
+color: #fff;
+}
+
+#ra {
+    color: #C99A5B;
+    text-decoration: none;
+}
+
+.arrow:hover {
+    background-color: black;
+    color: #C99A5B;
+    border: #C99A5B;
+    transition: all 1s;
+
+}
+
+
+.arrow {
+    margin-top: 10px;
+    
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000px;
+    /* bottom: 0px; */
+    background-color: #C99A5B;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: -90px;
+}
+.arrow:hover{
+    background-color: black;
+    color: white;
+}
+
+#fa {
+    text-decoration: none;
+    color: black;
+
+}
+
+#up {
+    border: 1px solid #C99A5B;
+    padding: 5%;
+    border-radius: 50px;
+    background-color: #C99A5B;
+
+}
+
+
+
+
+
+    /* Navbar Section Page Responsive Design   */
+
+    .menu-toggle {
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: white;
+        padding: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    ul.show {
+        display: flex;
+    }
+
+    ul a {
+        padding: 10px;
+        display: block;
+        text-align: center;
+    }
+
+    .dropdown-menu {
+        position: relative;
+        box-shadow: none;
+        width: 100%;
+        display: none;
+    }
+
+    .dropdown.active .dropdown-menu {
+        display: block;
+    }
+  #link{
+    position: relative;
+  }
+  #final{
+    display: block;
+  }
+  /* #orange{
+    position:absolute;
+   bottom:60%;
+    
+    left:80%;
+   
+   
+  } */
+  
+    
+  #apple:checked+ #orange{
+   
+    display: block;
+    width:fit-content;
+    text-decoration: none;
+    float: right;
+  }
+  #link{
+    display:none;
+  }
+  #button1,#now{
+    display: none;
+  }
+  
+  #orange a{
+    /* height: 100vh; */
+    color: #C99A5B;
+    text-decoration: none;
+
+  }
+  #orange{
+    
+      padding: 0px;
+
+
+  }
+  .dropdown-menu{
+
+    left: 100%;
+  }
+    
+
+
+}
+
+
+/* header Section Page Responsive */
+
+
+
+
+ @media (max-width: 768px) {
+    .cs1 ul {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .mobile-menu {
+        display: flex;
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+} 
+
+#angle{
+padding-left: 80%;
+padding-top: 0%;
+}
+
+
+
+/* First Section Page Responsive Design  */
+
+
+ @media (max-width: 1024px) {
+    .cs1 ul {
+        display: none;
+        flex-direction: column;
+        background: rgba(255, 255, 255);
+        position: absolute;
+        z-index: 1000;
+        width: 100%;
+        /* left: 60%;   */
+        top: 100px;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    
+
+    .cs1 ul.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    .cs2,
+    .cs3 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .fsp1,
+    .fsp2,
+    .ssp1,
+    .ssp2 {
+        max-width: 100%;
+    }
+
+    .ssp {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .cs1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cs1 div {
+        flex-direction: column;
+    } 
+
+    .cs2 h1,
+    .ssp2 h1 {
+        font-size: 1.8rem;
+    }
+
+    #wtc{
+        margin: 2% 2% 2% 10%;
+        width: 70%;
+        font-size: 15px;
+
+
+        
+    }
+    #bn,#km{
+        margin-left: 30%;
+        width: 30%;
+    }
+
+
+    #title{
+        margin-right: 200px;
+    }
+     
+    #book{
+        margin-right: 35px;
+        font-size: 25px;
+    }
+    #p1{
+        width: 100%;
+        padding-right: 25px;
+    }
+
+}
+
+/* Second Section Page Responsive Design */
+
+
+
+
+ @media (max-width: 768px) {
+  .cards {
+                grid-template-columns: repeat(1, 1fr);
+       }
+
+        .cs4 {
+text-align: center;
+         }  
+         #p2{
+            margin-left: 0px;
+            width: 80%;
+         }
+        #a1{
+            text-align: center;
+            margin-left: 35%;
+            width: 40%;
+        }
+        .ssp2b{
+            padding-top: 5%;
+        }
+        #au2{
+            margin-left: 35%;
+            width: 40%;
+            font-size: 20px;
+        }
+        #para1{
+            text-align: center;
+            margin-left: 5%;
+
+        }
+        #by{
+            margin-left: 5%;
+        }
+    } 
+
+
+
+/* Third Section Page Responsive Design */
+
+@media (max-width: 768px) {
+    .cs4 {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 90%;
+    }
+    /* .card1{
+        margin-left: 6%;
+    
+    } */
+
+    #n1 {
+        font-size: 1.8rem;
+    }
+
+    #t1 {
+        font-size: 1rem;
+    }
+    #os{
+        padding: 10px 100px 10px 40px;
+        margin: 60px;
+    }
+}
+
+
+/* Fourth Section Page Responsive Design */
+
+
+@media (max-width: 768px) {
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        /* margin-left: 11%; */
+        width: 100%;
+    }
+
+    .cs5a h1#wo {
+        font-size: 28px;
+    }
+
+    .ws {
+        font-size: 18px;
+    }
+
+    #ws1 {
+        font-size: 13px;
+    }
+
+    #rm {
+        font-size: 15px;
+        padding: 6px 15px;
+    }
+    #os{
+        width: 65%;
+        padding-right: 30px;
+        
+    
+    }
+}
+
+
+
+
+
+/* Fifth Section Page Responsive Design */
+
+
+
+@media (max-width: 768px) {
+    .cs6b {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cs5a p#wo {
+        font-size: 24px;
+    }
+
+    #ae {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+/* Sixth Section Page  Responsive Design */
+
+@media (max-width: 768px) {
+    .menu-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-column {
+        width: 100%;
+    }
+
+    .menu-item {
+        flex-direction: row;
+        width: 90%;
+    }
+
+    .menu-item #card {
+        width: 50px;
+        height: 50px;
+    }
+
+    #tikki {
+        font-size: 16px;
+    }
+
+    .nine {
+        font-size: 16px;
+    }
+
+    #labore {
+        font-size: 12px;
+    }
+    #om{
+        /* padding: 5px 70px 5px 30px; */
+        margin: 5%  35%;
+        width: 30%;
+    }
+}
+
+
+
+/* Seventh Section Page  Responsive Design  */
+
+@media (max-width: 768px) {
+    .move h1#where {
+        font-size: 24px;
+    }
+
+    .selectall {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formselect1,
+    .form-control {
+        width: 90%;
+    }
+
+    .sn {
+        font-size: 16px;
+        /* padding: 10px 25px; */
+        width: 60%;
+        text-align: center;
+        
+    }
+    
+
+}
+
+
+
+/* Eighth Section Page Responsive Design */
+
+@media (max-width: 768px) {
+    .cs9 h1#where {
+        font-size: 30px;
+    }
+
+    #box1 {
+       
+        margin: 5% 15% 5% 30%;
+        width: 40%;
+    }
+
+    .sn {
+        padding: 5px 2px 5px 2px;
+
+
+
+    }
+}
+
+
+
+/* Nineth Section Page  Responsive Design */
+
+@media (max-width: 768px) {
+    .cs10 h1#where {
+        font-size: 26px;
+    }
+    #box3 {
+        
+        margin: 5% 15% 5% 25%;
+        width: 50%;
+    }
+
+}
+
+
+
+/* Tenth Section Page  Responsive Design */
+
+@media (max-width: 768px) {
+    .cs11 h1#where {
+        font-size: 24px;
+    }
+
+    .blogs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .text h4 {
+        font-size: 14px;
+    }
+
+    .date span {
+        font-size: 12px;
+    }
+    #box2{
+        margin: 5% 15% 5% 30%;
+        width: 40%;
+    }
+
+    #box4{
+        margin: 5% 15% 5% 25%;
+        width: 50%;
+
+    }
+}
+
+
+
+/* Eleventh Section Page    Responsive Design */
+@media (max-width: 768px) {
+    .cs12 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .CaterServ-end,
+    .Special,
+    .Contact-us,
+    .Social {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .Gallery {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .cs12 #title {
+        /* font-size: 24px; */
+        margin: 5% 15% 5% 15%;
+        width: 30%;
+        
+    }
+
+    .Gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .apps a {
+        font-size: 16px;
+    }
+
+    .Special a,
+    .Contact-us p {
+        font-size: 14px;
+    }
+   
+}
+
+
+/* Footer Page Section   Responsive Design */
+
+
+@media (max-width: 768px) {
+.cs13 {
+flex-direction: column;
+text-align: center;
+}
+
+.footer,
+.by {
+width: 100%;
+margin: 10px 0;
+}
+
+#up {
+font-size: 18px;
+}
+}
