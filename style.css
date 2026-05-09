@@ -715,24 +715,182 @@ display: none;
 /* Seventh Section Page Styeling */
 
 .cs8 {
-    text-align: center;
-    padding: 50px 20px;
+    padding: 70px 20px;
     background-color: #f9f9f9;
 }
 
-.move {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    border: 2px solid #C99A5B;
-    height: 503px;
-    width: 80%;
-    margin-left: 10%;
-    text-align: center;
-    border-radius: 21px;
-    background-color: #FBFCF8;
+.cs8 .booking-wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
 }
 
-#box1,#box2,#box3,#box4 {
+.cs8 .booking-page {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    min-height: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cs8 .booking-side-panel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 160px;
+    background: #e8e2d4;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.cs8 .booking-side-panel.left {
+    left: -80px;
+}
+
+.cs8 .booking-side-panel.right {
+    right: -80px;
+}
+
+.cs8 .booking-side-panel svg {
+    width: 100%;
+    height: auto;
+    opacity: 0.85;
+}
+
+.cs8 .booking-card {
+    position: relative;
+    z-index: 2;
+    background: #faf8f2;
+    border: 1.5px solid #c9a84c;
+    border-radius: 4px;
+    padding: 56px 64px 52px;
+    width: 100%;
+    max-width: 960px;
+    box-shadow: 0 4px 40px rgba(0,0,0,0.06);
+    text-align: center;
+}
+
+.cs8 .booking-pill {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto 18px;
+    border: 1.5px solid #C99A5B;
+    border-radius: 50px;
+    padding: 6px 28px;
+    font-family: 'Playball', cursive;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #111;
+}
+
+.cs8 .booking-header {
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.cs8 .booking-title {
+    font-family: 'Playball', cursive;
+    font-style: italic;
+    font-size: 46px;
+    color: #111;
+    line-height: 1.15;
+    font-weight: 700;
+}
+
+.cs8 .booking-form {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(220px, 1fr));
+    gap: 18px;
+}
+
+.cs8 .booking-field {
+    position: relative;
+}
+
+.cs8 .booking-field select,
+.cs8 .booking-field input {
+    width: 100%;
+    padding: 14px 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #555;
+    background: #fff;
+    border: 1.5px solid #c9a84c;
+    border-radius: 4px;
+    outline: none;
+    appearance: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.cs8 .booking-field select:focus,
+.cs8 .booking-field input:focus {
+    border-color: #a07c28;
+    box-shadow: 0 0 0 3px rgba(201,168,76,0.18);
+    color: #222;
+}
+
+.cs8 .booking-field.booking-select::after {
+    content: '';
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #888;
+    pointer-events: none;
+}
+
+.cs8 .booking-submit {
+    grid-column: 1 / -1;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.cs8 .booking-button {
+    background: #c99a5b;
+    color: #111;
+    border: none;
+    border-radius: 50px;
+    padding: 16px 48px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s, color 0.2s;
+    box-shadow: 0 4px 18px rgba(201,168,76,0.3);
+    min-width: 220px;
+}
+
+.cs8 .booking-button:hover {
+    background: #111;
+    color: #c99a5b;
+    transform: translateY(-1px);
+}
+
+.cs8 .booking-button:active {
+    transform: translateY(0);
+}
+
+.cs8 ::placeholder {
+    color: #888;
+}
+
+#box1,#box2,#box3 {
     margin-top: 2%;
     border: 1px solid #C99A5B;
     width: 8%;
@@ -745,6 +903,20 @@ display: none;
 
 
 
+}
+
+#box5 {
+    margin: 2% auto 0;
+    border: 1px solid #C99A5B;
+    width: auto;
+    min-width: 130px;
+    padding: 0.5% 1rem;
+    border-radius: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    white-space: nowrap;
+    display: inline-block;
 }
 
 #where {
@@ -765,51 +937,10 @@ display: none;
 
 }
 
-.formselect1,
-.form-control {
-    width: 100%;
-    /* margin-right: 60%; */
-    padding: 12px;
-    border-color: #C99A5B;
-    border-radius: 10px;
-    background-color: #FBFCF8;
-    color: gray;
-    text-align: start;
-
-
-}
-
 /* .mobile{
     width: 0%;
     padding-left: 130px;
 } */
-.selectall {
-
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 20px;
-    justify-content: center;
-    max-width: 800px;
-    margin: auto;
-
-}
-
-.sn {
-    border: 3px solid lightpink;
-    padding: 15px 15px;
-    width: 15%;
-    border-radius: 100px;
-    margin-top: 5%;
-    background-color: #C99A5B;
-    font-size: 20px;
-    cursor: pointer;
-    display: inline-block;
-    transition: 0.3s ease;
-
-
-
-
-}
 
 .sn:hover {
     background-color: black;
@@ -1072,7 +1203,7 @@ align-items: center; */
 
 }
 
-.blogs {
+.cs11 .blogs {
     /* display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
@@ -1114,7 +1245,7 @@ align-items: center; */
 /* --------------------- */
 
 
-.card {
+.cs11 .card {
     position: relative;
     width: 320px;
     border-radius: 15px;
@@ -1124,14 +1255,14 @@ align-items: center; */
     margin-bottom: 100px;
 }
 
-.card img {
+.cs11 .card img {
     width: 100%;
     /* display: block; */
     height: auto;
     border-radius: 15px;
 }
 
-.card-content {
+.cs11 .card-content {
     position: absolute;
     bottom: 0px;
     left: 50%;
@@ -1145,7 +1276,7 @@ align-items: center; */
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
 }
 
-.date {
+.cs11 .date {
     background: #c49a6c;
     color: black;
     padding: 10px 12px;
@@ -1160,13 +1291,13 @@ align-items: center; */
 }
 
 
-.date span {
+.cs11 .date span {
     display: block;
     font-size: 14px;
 
 }
 
-.text {
+.cs11 .text {
     margin-left: 12px;
     font-size: 14px;
     font-weight: bold;
@@ -1804,29 +1935,34 @@ text-align: center;
 /* Seventh Section Page  Responsive Design  */
 
 @media (max-width: 768px) {
-    .move h1#where {
-        font-size: 24px;
+    .cs8 .booking-page {
+        min-height: auto;
+        padding: 0 10px;
     }
 
-    .selectall {
-        flex-direction: column;
-        align-items: center;
+    .cs8 .booking-card {
+        padding: 36px 24px;
+        max-width: 100%;
     }
 
-    .formselect1,
-    .form-control {
-        width: 90%;
+    .cs8 .booking-side-panel {
+        display: none;
     }
 
-    .sn {
-        font-size: 16px;
-        /* padding: 10px 25px; */
-        width: 60%;
-        text-align: center;
-        
+    .cs8 .booking-form {
+        grid-template-columns: 1fr;
+        gap: 16px;
     }
-    
 
+    .cs8 .booking-field select,
+    .cs8 .booking-field input {
+        width: 100%;
+    }
+
+    .cs8 .booking-button {
+        width: 100%;
+        max-width: 100%;
+    }
 }
 
 
@@ -1877,21 +2013,21 @@ text-align: center;
         font-size: 24px;
     }
 
-    .blogs {
+    .cs11 .blogs {
         flex-direction: column;
         align-items: center;
     }
 
-    .card {
+    .cs11 .card {
         width: 90%;
         max-width: 400px;
     }
 
-    .text h4 {
+    .cs11 .text h4 {
         font-size: 14px;
     }
 
-    .date span {
+    .cs11 .date span {
         font-size: 12px;
     }
     #box2{
